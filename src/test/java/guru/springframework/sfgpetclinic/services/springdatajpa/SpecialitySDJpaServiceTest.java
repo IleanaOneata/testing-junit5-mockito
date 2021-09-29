@@ -26,18 +26,18 @@ class SpecialitySDJpaServiceTest {
 
     @Test
     void deleteById() {
-        specialitySDJpaService.deleteById(1l);
-        specialitySDJpaService.deleteById(1l);
+        specialitySDJpaService.deleteById(1L);
+        specialitySDJpaService.deleteById(1L);
 
-        verify(specialtyRepository, times(2)).deleteById(1l);
+        verify(specialtyRepository, times(2)).deleteById(1L);
     }
 
     @Test
     void deleteByIdAtLeast() {
-        specialitySDJpaService.deleteById(1l);
-        specialitySDJpaService.deleteById(1l);
+        specialitySDJpaService.deleteById(1L);
+        specialitySDJpaService.deleteById(1L);
 
-        verify(specialtyRepository, atLeastOnce()).deleteById(1l);
+        verify(specialtyRepository, atLeastOnce()).deleteById(1L);
     }
 
     @Test
