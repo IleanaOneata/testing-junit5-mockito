@@ -11,6 +11,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
+/**
+ * @author ileanaoneata
+ */
+
 @ExtendWith(MockitoExtension.class)
 class VetSDJpaServiceTest {
 
